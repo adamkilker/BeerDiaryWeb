@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>index</title>
+
+<style type="text/css"></style>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div id="header">Beer Diary</div>
+<form name="interfaceForm" method="post" action="interfaceServlet">
+What's your Beer's Name? <input name="name" type="text">
+<br>
+Where'd you drinkt it? <input name="location" type="text">
+<br>
+What type of Beer was it?
+<select name="type"><option value=""> </option><option value="Amber">Amber</option><option value="Blonde">Blonde</option><option value="Brown">Brown</option><option value="Cream">Cream</option><option value="Dark">Dark</option><option value="IPA">IPA</option><option value="Light">Light</option><option value="Pale">Pale</option><option value="Pilsner">Pilsner</option><option value="Porter">Porter</option><option value="Red">Red</option><option value="Stout">Stout</option><option value="Wheat">Wheat</option></select>
+<br>
+What form did your Beer come in?
+<input name="form" value="draft" type="radio">Draft
+<input name="form" value="bottle" type="radio">Bottle
+<input name="form" value="can" type="radio">Can
+<br>
+Ranking? (1-10) <input name="rank" type="text"> <br>
+<input value="Add" type="submit"> </form>
+<form action="list.html">
+<input value="List" type="submit"></form>
+</body></html>
